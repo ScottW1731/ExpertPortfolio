@@ -1,0 +1,29 @@
+{
+  "name": "expertportfolio",
+  "version": "1.0.0",
+  "description": "scottWagnerPortfolio",
+  "main": "index.js",
+  "dependencies": {
+    "react": "16.8.4",
+    "react-dom": "16.8.4"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottW1731/ExpertPortfolio.git"
+  },
+  "author": "scottWagner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottW1731/ExpertPortfolio/issues"
+  },
+  "homepage": "https://github.com/ScottW1731/ExpertPortfolio#readme"
+}
