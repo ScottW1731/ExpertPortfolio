@@ -16,9 +16,16 @@ router.get('/contact', function(req, res) {
   res.render('contact');
 });
 
-router.post('/api/cats', function(req, res) {
-  //This is going to be useful for your post contact information
-});
+//api 
+// router.post('/send', function(req, res) {
+//   console.log('receiving data ...');
+//   console.log('body is ',req.body);
+//   res.send(req.body);
+//   //This is going to be useful for your post contact information
+// });
 
+// app.post('/sample/put/data', function(req, res) {
+
+// });
 // Export routes for server.js to use.
 module.exports = router;
