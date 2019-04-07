@@ -1,5 +1,80 @@
-.profileCarousel>.carousel-item>img{
-    width: 100%;
-    height: auto;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+/* 
+general sytles
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("/assets/images/memphiscolorful.png");
+    
+}
+.footer{
+border-top: 2px solid #f5f4f494;
 }
 
+/* 
+landing page styles
+*/
+
+.main-landing-page{
+    min-height: 870px;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    background: #fff
+}
+
+.main-landing-page>.row>.col-6>img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    width:150px;height:150px;
+    border: solid 1px #555;
+    background-color: #eed;
+    box-shadow: 20px 30px rgba(9, 123, 253, 0.6);
+    -moz-box-shadow:  20px 30px rgba(9, 123, 253, 0.6);
+    -webkit-box-shadow:  20px 30px rgba(9, 123, 253, 0.6); 
+    -o-box-shadow:  20px 30px rgba(9, 123, 253, 0.6);
+    border-radius:100px;
+}
+
+
+
+/* 
+projectspage
+*/
+.img-wrap {
+    position: relative;
+  }
+  
+  .img-caption {
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 60px;
+    bottom: 10px;
+    left: 0;
+    opacity: 0.9;
+    position: absolute;
+    text-align: center;
+    line-height: 60px;
+  }
+  
+  .img-caption h3 {
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .profileContainer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  /* 
+  contact styles
+  */
+
+  .containerForm{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
